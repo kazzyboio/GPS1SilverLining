@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1560405700076306117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954223780983964514}
+  - component: {fileID: 3867842734283090655}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &954223780983964514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560405700076306117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.6624017, y: -0.30129758, z: -0.06622312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3867842734283090655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560405700076306117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cd049e93c80d94789b9ffac301b4d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BlobInteract
+    clip: {fileID: 8300000, guid: a7bf444d89749004f87c228caa68fdde, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: RubbleBreak
+    clip: {fileID: 8300000, guid: 8e75a7817310e8a4a95affdc739b07e6, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 0.8
+    pitch: 2
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: CarHit
+    clip: {fileID: 8300000, guid: c0fa4b58d855e944cbb662c5d6a602c9, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: BGM
+    clip: {fileID: 8300000, guid: f3b20f7f23ef08541a4684dcfa5f965a, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    priority: 128
+    source: {fileID: 0}
+  - name: EBoxSparks
+    clip: {fileID: 8300000, guid: 200c40f3d4b0b004a9736e68c03848fc, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: StatueFall
+    clip: {fileID: 8300000, guid: 8b46c9c99086610499e6c00818d8ac5c, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: Walking
+    clip: {fileID: 8300000, guid: 3d89c9de3e0c465429c9e6cddba2a276, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: GateOpen
+    clip: {fileID: 8300000, guid: db01dade87f5ff64d8aa9f6f96bf9a84, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: TrapdoorOpen
+    clip: {fileID: 8300000, guid: 4a6cff6e55c89a045ac69c6307629bb1, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: CatMeow
+    clip: {fileID: 8300000, guid: 44ce8f024f74263469c18fa09934e2a5, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: GroundRumble
+    clip: {fileID: 8300000, guid: f7125a9e55893ec4b80ce5fefaa41406, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 9a87f298a4006ce4f9aa43bfd2058b1a, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: TrashPickup
+    clip: {fileID: 8300000, guid: 9df4984671d81ad48912b90f51cfcfbf, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: Siren
+    clip: {fileID: 8300000, guid: 671c43b682cefa44f97ceed31a889916, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
+  - name: Plane
+    clip: {fileID: 8300000, guid: cf0a7b039765e314b91fea6e6aceed20, type: 3}
+    mixer: {fileID: 24300002, guid: 8eb7ac9bb1c1dc346abef1306bef145e, type: 2}
+    volume: 0.262
+    pitch: 1
+    loop: 0
+    priority: 128
+    source: {fileID: 0}
